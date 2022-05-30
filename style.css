@@ -1,0 +1,250 @@
+*{
+    font-family: 'poppins';
+    margin: 0%;
+    padding: 0%;
+}
+.container{   
+    width: 1140px;
+    margin: 0 auto;
+}
+.nav{
+    font-family: 'poppins';
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+    justify-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    color:#231749;;
+}
+.nav li {
+    align-items: center ;
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;   
+}
+.nav a{
+    text-decoration: none;
+    color: #231749;
+}
+.icon{
+    margin-left: 5px;
+    width: 16px;
+    height: 16px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    text-transform: uppercase;
+    color: #7D6DAD;
+}
+.logo b{
+    color: #231749;
+}
+.hero .container{ 
+background-image: url("img/mask.png");
+height: 600px;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.hero h1{
+    color: #231749;
+    font-size: 40px;
+   line-height: 100%;
+}
+.hero img{
+    height: 100%;
+    width: 100%;
+}
+.header{
+    width: 100%;
+    filter: drop-shadow(0px 6px 10px rgba(0, 0, 0, 0.1));
+}
+.info{
+    
+    width: 400px;
+}
+.info p{
+    margin: 24px 0;
+}
+.info button{
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    width: 242px;
+    height: 70px;
+    color: white;
+    border: none;
+    background: #7951F9;
+    border-radius: 10px;
+}
+.containerAction{
+    padding: 166px 0px 126px 0px;
+    display: flex;
+
+}
+.servisescolumn{
+
+    padding: 0px 15px;
+    flex: 0 1 33.333%;
+    background: #ffffff;
+    border: 1px solid #F3F4FE;
+    box-shadow: 0px 50px 115px rgba(165, 153, 209, 0.3);
+    border-radius: 10px;
+}
+.servisescolumn h3{
+    margin: 51px 0 30px 0;
+}
+.conatinercard{
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    display: flex;  
+}
+.textcard{
+    display: flex;
+    flex-direction: column;
+}
+.textcard h1{
+    line-height: 120%;
+    color: #2D1D61;
+    font-size: 36px;
+}
+.textcard p{
+    margin-top: 40px;
+    color: #363049;
+    font-size: 16px;
+}
+.conatinercard img{
+    width: 55%;
+    filter: drop-shadow(-60px 60px 130px rgba(160, 142, 215, 0.3));
+}
+
+.textcard2{
+    display: flex;
+    flex-direction: column;
+}
+.textcard2 h1{
+    line-height: 120%;
+    color: #2D1D61;
+    font-size: 36px;
+}
+.textcard2 p{
+    margin-top: 40px;
+    color: #363049;
+    font-size: 16px;
+}
+.textcard2{
+    width: 200%;
+}
+.card2{
+    height: 552px;
+}
+.posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.post{
+    align-items: flex-start;
+    box-shadow: 0px 20px 95px rgba(201, 203, 204, 0.3);
+    font-size: 18px;
+    margin: 12px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 24px 32px;
+    display: flex;
+}
+.post.show{
+    grid-row: 1 / span 2;
+}
+.post img{
+    
+    flex-flow: column nowrap;
+    width: 30px;
+    margin-right: 8px;
+}
+.plussle h1{
+    text-align: center;
+    color: #2D1D61;
+    font-size: 44px;
+    margin-bottom: 120px;
+}
+.post p{
+    margin-top: 30px;
+}
+.growing{
+    text-align: center;
+    padding: 117px 0;
+    background-image: url(img/Background2.png);
+    background-size: cover;
+    width: 100%;
+}
+.growing h1{
+    padding-bottom: 50px;
+    color: #2D1D61;
+    font-size: 38px;
+}
+.growing button{
+    cursor: pointer;
+    padding: 20px 67px;
+    filter: drop-shadow(0px 40px 70px rgba(65, 24, 162, 0.25));
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background: #7951F9;
+}
+.logo2{
+    text-transform: uppercase;
+    color: #7D6DAD;
+}
+.logo2 b{
+    color: #231749;
+}
+.futter{
+    margin: 155px 155px 160px 155px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+.futter li{
+    list-style: none;
+    font-size: 16px;
+    color: #383B45;
+}
+.futter h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #3E3E3E;
+}
+.logo2 p{
+    color: #343448;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
